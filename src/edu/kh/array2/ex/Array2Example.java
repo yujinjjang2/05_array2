@@ -48,7 +48,7 @@ public class Array2Example {
 		// arr이 참조하고 있는 2차원 배열의 행의 길이
 		
 		System.out.println(arr[0].length); // 3 (열길이)
-		// arr[0] 행이 참조하고 있는 1차원 배열의(열) 길이
+		// arr[0] 행이 참조하고 있는 1차0원 배열의(열) 길이
 		
 		System.out.println(arr[1].length); // 3 (열길이)
 		// arr[1] 행이 참조하고 있는 1차원 배열의(열) 길이
@@ -178,7 +178,6 @@ public class Array2Example {
 		for(int row = 0; row < arr.length; row++) { // 행
 			
 			for(int col = 0; col < arr[row].length; col++) {
-				
 				arr[row][col] = ch++;
 			}
 		}
