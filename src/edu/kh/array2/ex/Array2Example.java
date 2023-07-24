@@ -188,6 +188,18 @@ public class Array2Example {
 	
 	public void ex4() {
 		// 빙고문제
+		
+		int[][] arr = new int[5][5];
+		
+		for(int i = 0; i < arr.length; i++) {
+			
+			for(int j = 0; j < arr[i].length; j++) {
+				
+				int random = (int)(Math.random() * 25 + 1);
+				
+				arr[i][j] = random;
+			}
+		}
 	}
 	
 }
