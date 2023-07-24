@@ -8,7 +8,7 @@ public class PracticeRun {
 		
 		//ap.practice1();
 		//ap.practice2();
-		ap.practice3();
+		//ap.practice3();
 	}
 
 }
